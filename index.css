@@ -51,83 +51,101 @@ table {
 /**********************/
 /*Styling Begins Here */
 /**********************/
-*{
-	color: green;
-	background-color: #DDB9A3;
-	font-family: Roboto Mono, Arial, Helvetica, sans-serif;
-}
-h1 {
-	font-family: Chelsea Market, Arial, Helvetica, sans-serif;
-}
-h2, h3 {
-
-}
 p{
-	color: black;
-	line-height: 1.4px;
+	font-family: 'Roboto Mono', Helvetica, sans-serif;
+	line-height: 20px;
+}
+body{
+	background-color:slategray;
+}
+h1{
+	font-family: 'Chelsea Market', Arial, Helvetica, sans-serif;
+	font-size: 32px;
+}
+
+.fullSpace {
+	width: 600px;
+	margin: 0 auto;
+	border: 0px solid white;
+	background-color:white;
+	text-align: center;
+}
+img.roundPic{
+	border-radius: 50%;
+	width: 25%;
+	height: 25%;
+	display: inline-block;
 	
 }
-.hotTopic {
-	width:1000px;
-	margin: 5px auto;
-	border: 2px solid red;
+.containerPicture{
+	width: 100%;
 }
-header{
+
+header.fullSpace nav.hotTopic {
+	width: 600px;
 	margin: 0px auto;
 }
-.hotTopic nav a {
-	display: inline-block;
-	border: 2px red solid;
+header.fullSpace nav.hotTopic a{
+	margin: 15px 5px;
+	padding: 30px;
+	border: 0px solid white;
 	border-radius: 20%;
-	margin:25px 50px;
-	padding: 10px;
+	display: inline-block;
 	min-width: 15%;
-	min-height: 10%;
 	text-align: center;
-	color: white;
 }
-.container{
-	width: 80%
-	height: 200px;
-	background: aqua;
-	margin: auto;
-	padding: 10px;
-	border: 2px red solid;
-
-}
-.container div .infoPlate{
-	width:80%;
+header.fullSpace div.besidePic {
 	display:inline-block;
-	border: 2px red solid;
-	float: left;
-}
-.container .roundPic{
-	border-radius: 50%;
-	width: 200px;
-	height: 200px;
-	display:inline-block
-}
-.meatAndPotato:{
+	width: 60%;
 	margin: 0 auto;
-	border: 2px pink solid;
-	width: 80%;
-	display:inline-block;
-	min-height: 200px;
+	
+}
+
+
+main.fullSpace section {
+	background-color: #DDB9A3;
 
 }
-.chunk {
+main.fullSpace section.fullSpace {
 	background-color: white;
-	border: 2px solid green;
+	
 }
-.hT1 {
+main.fullSpace section.fullSpace img {
+	height: 20%;
+	width: 20%;
+}
+main.fullSpace section.fullSpace p{
+	line-height: 10px;
+	margin: 0px 35%;
+	font-size: 12px;
+}
+footer.fullSpace {
+	background-color: #F9E7DC;
+}
 
-	background-color:#FF764E;
-	}
-.hT2 {
-	
-	background-color:#5ED3EB;
-	}
-.hT3 {
-	
-	background-color:#FFCD69
-	}
+
+.hT1{
+	background-color:#FF764E ;
+}
+.hT2{
+	background-color:#5ED3EB ;
+}
+.hT3{
+	background-color:#FFCD69 ;
+}
+
+
+
+
+
+
+
+
+
+.longPic{
+	border: 2px solid black;
+	max-height: 150px;
+	min-width: 600px;
+	display: flex;
+	margin: 0 auto;
+}

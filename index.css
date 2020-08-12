@@ -58,8 +58,14 @@ nav{
 	margin: 2px auto;
 	}
 a{
+	border: 2px solid white;
+	border-radius: 20%;
+	padding: 25px 50px;
 	margin: 2px auto;
 	width: 100px;
+	text-align: center;
+	display: inline-block;
+	
 	}
 .navDiv{
 	display:flex;
@@ -68,13 +74,10 @@ a{
 
 .button1 {
 	background-color:#FF764E;
-	
 	}
 .button2 {
 	background-color:#5ED3EB;
-	
 	}
 .button3 {
 	background-color:#FFCD69
-	
 	}

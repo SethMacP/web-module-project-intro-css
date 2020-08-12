@@ -80,19 +80,22 @@ img.roundPic{
 .containerPicture{
 	width: 100%;
 }
-
+.bold {
+	font-weight: bold;
+}
 header.fullSpace nav.hotTopic {
 	width: 600px;
 	margin: 0px auto;
 }
 header.fullSpace nav.hotTopic a{
 	margin: 15px 5px;
-	padding: 30px;
+	padding: 5px 15px;
 	border: 0px solid white;
 	border-radius: 20%;
 	display: inline-block;
 	min-width: 15%;
 	text-align: center;
+	color: white;
 }
 header.fullSpace div.besidePic {
 	display:inline-block;
@@ -104,10 +107,23 @@ header.fullSpace div.besidePic {
 
 main.fullSpace section {
 	background-color: #DDB9A3;
+	color: white;
+	margin: 0px
+
+}
+main.fullSpace section.smallIndent {
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 0 10px;
+	font-size: 12px;
+	line-height: normal;
 
 }
 main.fullSpace section.fullSpace {
 	background-color: white;
+	color: black;
+	padding-top: 25px;
+	padding-bottom:10px;
 	
 }
 main.fullSpace section.fullSpace img {
@@ -122,7 +138,20 @@ main.fullSpace section.fullSpace p{
 footer.fullSpace {
 	background-color: #F9E7DC;
 }
-
+footer.fullSpace nav.hotTopic {
+	width: 600px;
+	margin: 0px auto;
+}
+footer.fullSpace nav.hotTopic a{
+	margin: 15px 5px;
+	padding: 5px 15px;
+	border: 0px solid white;
+	border-radius: 20%;
+	display: inline-block;
+	min-width: 15%;
+	text-align: center;
+	color: white;
+}
 
 .hT1{
 	background-color:#FF764E ;
@@ -143,7 +172,7 @@ footer.fullSpace {
 
 
 .longPic{
-	border: 2px solid black;
+	border: 0px solid black;
 	max-height: 150px;
 	min-width: 600px;
 	display: flex;

@@ -49,3 +49,32 @@ table {
 /**********************/
 /*Styling Begins Here */
 /**********************/
+*{
+	color: white;
+}
+nav{
+	display: flex;
+	width: 800px;
+	margin: 2px auto;
+	}
+a{
+	margin: 2px auto;
+	width: 100px;
+	}
+.navDiv{
+	display:flex;
+	width: 1200px;
+	}
+
+.button1 {
+	background-color:#FF764E;
+	
+	}
+.button2 {
+	background-color:#5ED3EB;
+	
+	}
+.button3 {
+	background-color:#FFCD69
+	
+	}
